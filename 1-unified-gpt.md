@@ -8,7 +8,7 @@ If you want to cite this work:
   title        = {Do we need an image encoder in Vision Language Models?},
   month        = {june},
   year         = {2025},
-  note         = {\url{https://github.com/masc-it/neural-activations/1-unified-gpt.md}}
+  note         = {\url{https://github.com/masc-it/neural-activations/blob/main/1-unified-gpt.md}}
 }
 ```
 

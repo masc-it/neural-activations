@@ -8,7 +8,7 @@ If you want to cite this work:
   title        = {Can we semantically encode an image as plain text?},
   month        = {may},
   year         = {2025},
-  note         = {\url{https://github.com/masc-it/neural-activations/2-encode-image-as-text.md}}
+  note         = {\url{https://github.com/masc-it/neural-activations/blob/main/2-encode-image-as-text.md}}
 }
 ```
 
