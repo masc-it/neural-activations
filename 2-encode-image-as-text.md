@@ -12,6 +12,8 @@ If you want to cite this work:
 }
 ```
 
+> PS. I got this idea while on a flight. Lower oxigen levels are good for creativity ?
+
 # Use cases
 
 - In a multimodal setting, with images and text, it would be much easier to work with a unified input: just a discrete token sequence. No separate image encoder on top.
