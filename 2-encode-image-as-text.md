@@ -78,6 +78,7 @@ Cross entropy loss logs:
 - start: ~6
 - 20%: 3.3
 - 50%: 2.30
+- 85%: 0.9
 
 # Dev logs
 
