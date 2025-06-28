@@ -75,3 +75,8 @@ It takes ~3 hours per epoch on my RTX A4000.
 Cross entropy loss logs:
 - start: ~6
 - 20%: 3.3
+- 50%: 2.30
+--
+Update: Interestingly, at ~30% of the first epoch, the loss started to drop more sharply and gradient norm jumped from a steady 0.5 to a more fluctating range, between 10 to 40. I have grad clipping set to 3.0, so let's see how it goes.
+It should be related to the scheduler as well, I am using a cosine scheduler with warmup, at this stage we are at 2e-5. warmup is set to last 30% of training steps, I have 5 epochs so that's gonna end sometime during the 2nd epoch.
+--
