@@ -69,7 +69,7 @@ In order to keep the encoding length under control, I have added all the colors 
 
 # Results
 
-Right now I am training a GPT model on an internal company dataset. 
+Right now I am training a GPT model (just 13M params) on an internal company dataset. 
 Given the image representation + prompt, the network has to predict some textual data, contained in the image.
 
 It takes ~3 hours per epoch on my RTX A4000.
