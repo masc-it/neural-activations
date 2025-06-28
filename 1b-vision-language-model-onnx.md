@@ -90,9 +90,22 @@ Practically, during the prefill, the image tensor has shape [B, 1, C, H, W], whi
 
 During generation, the image tensor has shape [B, 0, C, H, W], which is just a dummy tensor. Turns out that Conv2d works well with this so at the end of the day, the image encoder shape is [B, 0, D]. perfect.
 
+With this, I can now concat the image_embeds with the text_embeds in a **branchless** way:
+
+```
+
+tokens = torch.concat(
+  [
+    image_embeds, # [B, 0, D]
+    text_embeds   # [B, N, D]
+  ],
+  dim=1
+)
+```
+
 Now let's fix the kv cache input.
 
-I quickly understood that the fastest way to make things work out with onnx is to go **branchless**. None is forbidden. ifs are forbidden. Just Tensors and shapes shenenigans.
+I quickly understood that the fastest way to make things work out with onnx is to go **branchless**. None is forbidden. ifs are forbidden. Just Tensors and shapes shenanigans.
 
 Updated forward:
 ```
