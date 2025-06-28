@@ -1,0 +1,1 @@
+This is a log of ideas and projects I have been working on, in the world of neural networks and deep learning.
