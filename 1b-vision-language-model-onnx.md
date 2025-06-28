@@ -119,6 +119,8 @@ Finally, it worked. What a journey.
 
 # Notes
 
+- An alternative is compile the model in two separate graphs: the prefill graph and the generation graph.
+  - That is just skill issue. Too easy for me. I wanted one graph :)
 - you need to set dynamic axes for the sequence length dimension of your input_ids and output
 - you need to set dynamic axes for the sequence length dimension of your images
 
