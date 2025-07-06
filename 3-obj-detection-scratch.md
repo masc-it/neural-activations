@@ -78,6 +78,8 @@ I have used `detection-datasets/fashionpedia`
 
 80%+ mAP@90
 
-![](https://github.com/masc-it/neural-activations/blob/main/3-obj-detection-scratch/odd_scratch_results.png)
+![random pred](https://github.com/masc-it/neural-activations/blob/main/3-obj-detection-scratch/odd_scratch_results.png)
+
+An example of the objectness score map, for each cell in the grid.
 
 ![predicted grid cell, which is the center of the bbox](https://github.com/masc-it/neural-activations/blob/main/3-obj-detection-scratch/odd_scratch_results_objectness.png)
