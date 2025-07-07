@@ -1,6 +1,6 @@
 Hi, I'm Mauro, ML Engineer by day, Applied Scientist by night.
 
-This is a blog to log ideas and projects I have been working on in the world of neural networks and deep learning. I’ll be adding ideas here over time, it may take a while! :)
+This is a blog with ideas and projects I have been working on in the world of neural networks and deep learning. I’ll be adding material here over time, it may take a while! :)
 
 I aim to update this log every few weeks as I explore new topics.
 
